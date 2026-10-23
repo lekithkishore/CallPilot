@@ -44,9 +44,9 @@ Open the Vite URL shown in the terminal (usually `http://localhost:5173`).
 - Deploy `frontend` to Vercel with the root directory set to `frontend`. Add `VITE_API_URL` set to the deployed Render base URL (no trailing slash), then redeploy.
 - Add the deployed Vercel origin to `FRONTEND_URL` in Render and redeploy the backend.
 - Add the final public URLs here before submission:
-  - Vercel app: TODO
-  - Render health endpoint: TODO
-  - GitHub repository: TODO
+  - Vercel app: Done
+  - Render health endpoint: Done
+  - GitHub repository: Done
 
 ## LLM purpose
 The Gemini-backed coach receives the current stage, its purpose, the caller-selected outcome, and the prospect's captured words. It returns a short acknowledgment, a suggested response, and a follow-up question. The Gemini API key stays on the backend.
